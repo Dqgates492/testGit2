@@ -1,0 +1,22 @@
+//Darnell Gates
+
+class michigan {
+	String cities; 
+	int pop;
+}
+
+public class SimpleProject2 {
+
+	public static void main(String[] args) {
+		
+		String[] cities = {"Detroit", "Redford","Highland Park","Pontiac","Dearborn"};
+		
+		//System.out.println(cities[2]);
+		
+		int[] pop = {200,70, 20, 120, 100};
+		
+		System.out.println("The city of " + cities[2] + " has a population of " + pop[2] + " thousand. ");
+
+	}
+
+}
